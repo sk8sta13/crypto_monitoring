@@ -1,0 +1,19 @@
+{
+    "interval": 5,
+    "requests": [
+        {
+            "url": "https://api.binance.com/api/v3/ticker/price?symbol=BTCUSDT",
+            "rules": [
+                {"operator": "=", "value": 97000.0},
+                {"operator": "<=", "value": 57000}
+            ]
+        },
+        {
+            "url": "https://api.binance.com/api/v3/ticker/price?symbol=DOGEUSDT",
+            "rules": [
+                {"operator": ">=", "value": 2.5},
+                {"operator": "=", "value": 2}
+            ]
+        }
+    ]
+}
