@@ -33,6 +33,7 @@ See an example configuration:
 ```
 
 **Interval** is the time in seconds that the program will wait to make each request.
+
 **Operator** is a rule applied to compare values, which came from the API with what you set in the configuration. Os operadores (<, <=, =, >=, >, <>).
 
 I will not explain the other settings as I believe they are self-explanatory.
